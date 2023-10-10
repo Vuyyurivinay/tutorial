@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.app-container {
+  max-width: 1110px;
+  margin: auto;
+  background-color: skyblue;
+}
+
+.tabs-container {
+  max-width: 300px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.project-list-con {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992x) {
+  .project-list-con {
+    margin-bottom: 150px;
+  }
+}
+
+.heading {
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-icon-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  align-items: flex-end;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+}
+
+.search-bar {
+  width: 250px;
+  margin-top: 20px;
+}
